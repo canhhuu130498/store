@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script>
+      $(document).ready(function() {
+      $('.navbar a.dropdown-toggle').on('click', function(e) {
+         var $el = $(this);
+         var $parent = $(this).offsetParent(".dropdown-menu");
+         $(this).parent("li").toggleClass('open');
+         if(!$parent.parent().hasClass('nav')) {
+              $el.next().css({"top": $el[0].offsetTop, "left": $parent.outerWidth() - 4});
+         }
+         $('.nav li.open').not($(this).parents("li")).removeClass("open");
+         return false;
+        });
+    });
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--------------------------------------------------------------------------------------->
+
+    <div class="jumbotron text-center">
+      <p class="title">Speack with a Client Educator today <i class="glyphicon glyphicon-earphone"></i> 877-867-5753</p>
+    </div>
+<!----------------------------------------menungang----------------------------------------------->
+    <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+              <div class="navbar-header">
+                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                   <span class="sr-only">Toggle navigation</span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                 </button>
+                 <a class="navbar-brand" href="#"><img id="logostore"class="embed-responsive-item" src="https://gracecentury.com/wp-content/uploads/2017/07/store-a-tooth-1.png"></a>
+              
+         
+              <div class="collapse navbar-collapse">
+                 <ul class="nav navbar-nav">
+                    
+                    <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dental Stem Cells 101</a>
+                        <ul class="dropdown-menu">
+                           <li class="mn1"><a href="#" title="WBSC">Why Bank Stem Cells</a></li>
+                           <li class="mn1"><a href="#" title="WT">Why Teeth</a></li>
+                           <li class="mn1"><a href="#" title="DRC">Dentist Recommended</a></li>
+                           <li>
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Enmerging Trearments <b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                  <li class="mn2"><a href="#" title="TYPE">Type 1 Diabetes</a></li>
+                                  <li class="mn2"><a href="#" title="AHD">Alzheimer's Diasease</a></li>
+                                  <li class="mn2"><a href="#" title="AUTISM">Autism</a></li>
+                                  <li class="mn2"><a href="#" title="PKD">Parkinson's Diesease </a></li>
+                                  <li class="mn2"><a href="#" title="MCDP">Muscular Dystrophy</a></li>
+                                  <li class="mn2"><a href="#" title="MTSR">Multiple Sclerosis</a></li>
+                                  <li class="mn2"><a href="#" title="ARTHRITIS">Arthritis</a></li>
+                                  <li class="mn2"><a href="#" title="BRNG">Bone Regeneration</a></li>
+                              </ul>
+                           </li>
+                           <li class="mn1"><a href="#" title="RCN">Recent News</a></li>
+                           <li class="mn1"><a href="#" title="FAQS">FAQ's</a></li>
+                           
+                       </ul>
+                   </li>
+                   <li class="menu"><a href="#" title="Process">Our Process</a></li>
+                   <li class="menu"><a href="#" title="Pricing">Pricing</a></li>
+                   <li class="menu"><a href="#" title="Store">Stories</a></li>
+                   <li class="search"><i id="sear" class="glyphicon glyphicon-search"></i></li>
+                   <form class="navbar-form navbar-left">
+
+                <button id="bt1" type="submit" class="btn btn-default">ENROLL NOW</button>
+                </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+<!-------------------------------------Banner1-------------------------------------------------->
+
+<div id="jumbotron" class="jumbotron">
+    <h1 class="jum">Bank Dental Stsm Cells</h1>
+    <h1 class="jum1" >Prepare for the Future</h1>
+    <p class="jumbo">Many families are choosing to save stem cells that are around in</p>
+    <p class="jumbo">the pulp of the teeth as an investment into theirfuture health</p>
+    <input type="text" id="txtbanner" name="txtcont" value="REQUEST IFO KIT">
+      <button id="bt2" class="btn btn-default" type="submit">
+                <i class="glyphicon glyphicon-arrow-right"></i>
+      </button>
+
+</div>
+<!-------------------------------------------Row-------------------------------------------->
+
+<div class="td">
+    <h1>WHAT YOU GET</h1>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="https://st2.depositphotos.com/4560635/10378/v/950/depositphotos_103789356-stock-illustration-tooth-with-crown-vector-illustration.jpg" target="_blank">
+        <img src="https://st2.depositphotos.com/4560635/10378/v/950/depositphotos_103789356-stock-illustration-tooth-with-crown-vector-illustration.jpg" alt="Lights" style="width:30%">
+        <div class="caption">
+            <h3>Lorem Ipsum Title 1</h3>
+            <p >Lorem ipsum dolor sit amet, conset</p>
+            <p>etur adipisicing elit, sed do eiusmod</p>
+            <p>tempor incididun</p>
+        </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="https://thumbs.dreamstime.com/b/dentist-appointment-line-icon-schedule-dental-calendar-sign-vector-graphics-linear-pattern-white-background-eps-144544112.jpg" target="_blank">
+        <img src="https://thumbs.dreamstime.com/b/dentist-appointment-line-icon-schedule-dental-calendar-sign-vector-graphics-linear-pattern-white-background-eps-144544112.jpg" alt="Nature" style="width:30%">
+        <div class="caption">
+            <h3>Lorem Ipsum Title 2</h3>
+            <p class=>Lorem ipsum dolor sit amet, conset</p>
+            <p>etur adipisicing elit, sed do eiusmod</p>
+            <p>tempor incididun</p>
+        </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="https://thumbs.dreamstime.com/b/dentist-appointment-line-icon-schedule-dental-calendar-sign-vector-graphics-linear-pattern-white-background-eps-144544112.jpg" target="_blank">
+        <img src="https://thumbs.dreamstime.com/b/dentist-appointment-line-icon-schedule-dental-calendar-sign-vector-graphics-linear-pattern-white-background-eps-144544112.jpg" alt="Fjords" style="width:30%">
+        <div class="caption">
+            <h3>Lorem Ipsum Title 3</h3>
+            <p >Lorem ipsum dolor sit amet, conset</p>
+            <p>etur adipisicing elit, sed do eiusmod</p>
+            <p>tempor incididun</p>
+        </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!------------------------------------------logoNTT--------------------------------------------->
+
+<div id ="logoNTT"class="row">
+  <div class="bd">
+        <h6>As Seen On</h6>
+    </div>
+    <div class="col-md-2">
+      <div class="thumbnail">
+        <a href="https://t3.ftcdn.net/jpg/03/56/86/34/360_F_356863470_iwtEgsWGlgmWtEpKdLgpYud6QvEi2nAa.jpg" target="_blank">
+        <img src="https://t3.ftcdn.net/jpg/03/56/86/34/360_F_356863470_iwtEgsWGlgmWtEpKdLgpYud6QvEi2nAa.jpg" alt="Lights" style="width:80%">  
+        </a>
+      </div>
+    </div>
+
+    <div class="col-md-2">
+      <div class="thumbnail">
+        <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/768px-Fox_News_Channel_logo.svg.png" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/768px-Fox_News_Channel_logo.svg.png" alt="Nature" style="width:60%">
+        
+        </a>
+      </div>
+    </div>
+
+    <div class="col-md-2">
+      <div class="thumbnail">
+        <a href="http://www.thesnowhunter.com/wp-content/uploads/2016/02/the-wall-street-journal-logo.png" target="_blank">
+        <img src="http://www.thesnowhunter.com/wp-content/uploads/2016/02/the-wall-street-journal-logo.png" alt="Fjords" style="width:80%">
+        
+        </a>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="thumbnail">
+        <a href="https://www.map.org/hubfs/GHLogo-1.png" target="_blank">
+        <img src="https://www.map.org/hubfs/GHLogo-1.png" alt="Fjords" style="width:60%">
+        
+        </a>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="thumbnail">
+        <a href="https://cdn.shoplightspeed.com/shops/640025/files/27149252/sirius.jpg" target="_blank">
+        <img src="https://cdn.shoplightspeed.com/shops/640025/files/27149252/sirius.jpg" alt="Fjords" style="width:60%">
+        
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!------------------------------------banner2--------------------------------------------------->
+
+<div id="jumbotron1" class="jumbotron">
+      <h1>Our Lab.</h1>
+      <h1>cGMP-Compliant.</h1>
+      <p>Your child's stem cells are extracted and cultured in US</p>
+      <p>laboratories that are certified to meet FDA-registered cGMP standars.</p>
+      <p>A cGMP-compliant lab must meet certain quality, safety, and</p>
+      <p>consistancy standards that ensure the opportunity for ou</p>
+      <p>customers to use their cells the future-Which most other</p>
+      <p>"stem cells" banks cannot guarantee.</p>
+      <p>Store-A-Tooth is one of the only stem cells banks in the world</p>
+      <p>that operates under the FDA's guidelines for manufactoring</p>
+      <p>cellular products (cGMP).</p>
+      <button type="button" id="bt4"class="btn btn-info">LEARN MORE</button>
+</div>
+<!-----------------------------------Dichvu---------------------------------------------------->
+<div id ="dichvu"class="row">
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="https://detec.vn/wp-content/uploads/2020/11/Nhung-dieu-ban-chua-biet-ve-co-hoi-lam-viec-trong-nganh-nha-khoa-2.jpg" target="_blank">
+        <img src="https://detec.vn/wp-content/uploads/2020/11/Nhung-dieu-ban-chua-biet-ve-co-hoi-lam-viec-trong-nganh-nha-khoa-2.jpg" alt="Lights" style="width:80%">  
+        </a>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div id="nd" class="thumbnail">
+      <h1 class="tieude">Our Process</h1>
+      <p class="noidung">Provide your child's tooth sample from home or the dentist's</p>
+      <p class="noidung">office. Mail it back to our lab in the same kit came in - the</p>
+      <p class="noidung">postage is ore-paid.</p>
+      <p class="noidung1">We store the stem cells in a secure facility. AT -240<sup>o</sup> F!</p>
+      <button type="button" id="bt5"class="btn btn-info">LEARN MORE</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!---------------------------------Video------------------------------------------------------>
+<div id="videodichvu"class="container">
+  <div class="titlevddv">
+      <h1>Parent Approved</h1>
+      <p>Find out why other parents are saying "yes" to banking and</p>
+      <p>preserving their child's stem cells for the future.</p>
+  </div>
+  <div id="video" class="row">
+    <div id="khungvd1" class="col-md-4">
+      <div id ="video1" class="thumbnail">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://player.vimeo.com/external/322869299.sd.mp4?s=f236484e4ea56058f6286f3081a333e5ccf3d81c&profile_id=164"></iframe>
+        </div>
+        <div class="caption">
+            <h3 class="ndvd">Georgia</h3>
+            <p class="ndvd">A recent stydy in the jourma of Dental</p>
+            <p class="ndvd">Research indicating stem cells for</p>
+            <p class="ndvd">teeth may someday producea cure</p>
+        </div>
+        </a>
+      </div>
+    </div>
+
+    <div id="khungvd2" class="col-md-4">
+      <div id ="video2" class="thumbnail">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://player.vimeo.com/external/176369901.sd.mp4?s=10dc181f52bbf07c08605a6ec95d09818629e69c&profile_id=164"></iframe>
+        </div>
+        <div class="caption">
+            <h3 class="ndvd">Claudia</h3>
+            <p class="ndvd">Claudia ia the mother of 10-year old</p>
+            <p class="ndvd">daughter, Gabriella, who wass born with a</p>
+            <p class="ndvd">congenital heart defect.....</p>
+        </div>
+        </a>
+      </div>
+    </div>
+
+    <div id="khungvd3" class="col-md-4">
+      <div id ="video3" class="thumbnail">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://player.vimeo.com/external/459436899.sd.mp4?s=b60132454ea7c9732933b781b65025e9edb083ff&profile_id=164"></iframe>
+        </div>
+        <div class="caption">
+            <h3 class="ndvd">Georgia</h3>
+            <p class="ndvd">A recent stydy in the jourma of Dental</p>
+            <p class="ndvd">Research indicating stem cells for</p>
+            <p class="ndvd">teeth may someday producea cure</p>
+        </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="bt6">
+      <button type="button" id="bt6"class="btn btn-info">LEARN MORE</button>
+  </div>
+</div>
+<!------------------------------Thugon--------------------------------------------------------->
+<div class="thugon">
+  <div class="titleTG">
+    <h1>Still Have Questions?</h1>
+    <p>Here are just a few of the things people frequently ask about Store-A-Tooth.</p>
+    <p>If you don't see your question here, <ins>see mor FAQ's</ins> or</p>
+    <p><ins>get in touch with us.</ins></p>
+  </div>
+  <div class="panel-group" id="accordion">
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">What are Stem Cells ?
+            <i class="glyphicon glyphicon-plus" id="ntg"></i></a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+          <div class="panel-body">Stem cells have the ability to change in to different cell types. They also have ability to aid<br>in the healing of dameged tissue. There are just to of the reasons why scientists and<br>doctors are so excited about the growing role of stem cell to treat disease, injury, and the<br>deterioration of tissue due to aging.</div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">What are Stem Cells ?
+            <i class="glyphicon glyphicon-plus" id="ntg"></i></a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body"></div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">What Diseases are being Studied ?
+            <i class="glyphicon glyphicon-plus" id="ntg"></i></a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body"></div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">What do families choose to store their dental stem cells ?<i class="glyphicon glyphicon-plus" id="ntg"></i></a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body"></div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Should I bank cells for more than one tooth ?<i class="glyphicon glyphicon-plus" id="ntg"></i></a>
+        </h4>
+      </div>
+      <div id="collapse5" class="panel-collapse collapse">
+        <div class="panel-body"></div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Should I bank cells from more than one child ?<i class="glyphicon glyphicon-plus" id="ntg"></i></a>
+        </h4>
+      </div>
+      <div id="collapse6" class="panel-collapse collapse">
+        <div class="panel-body"></div>
+      </div>
+    </div>
+  </div> 
+</div>
+<!-------------------------------Email-------------------------------------------------------->
+<div id ="email" class="container">
+  <div id ="ndemail"class="row">
+    <div id="lgemail"class="col-sm-2">
+      <img class="imcont" src="https://e7.pngegg.com/pngimages/929/311/png-clipart-email-logo-blue-triangle-area-symbol-mail-blue-angle-thumbnail.png">
+    </div>
+    <div id="gtemail"class="col-sm-6">
+      <h5>You are Invited!</h5>
+      <h3>Enter Your Email for Exclusive Offers and Updates</h3>
+    </div>
+    <div id="txtemail" class="col-sm-4">
+      <input type="text" id="txtcont" name="txtcont" value="Enter Your Email.......">
+      <button id="bt7" class="btn btn-default" type="submit">
+                <i class="glyphicon glyphicon-arrow-right"></i>
+      </button>
+        <p>I consent to the transfer and validation of my email address in conjugation of this email</p>
+        <p>service I understand i may withdraw my consent and unsubscribe at any time</p>
+    </div>
+  </div>
+</div>
+
+<!-----------------------------Footer---------------------------------------------------------->
+<footer id="footer"class="container-fluid text-center">
+  <div id="ft" class="row">
+    <div id="row1" class="col-sm-3">
+      <h3><strong>Store A Tooth</strong></h3>
+      <p>About Us</p>
+      <p>Contact Us</p>
+      <p>Refer a Friend</p>
+      <p>Careers</p>
+      <p>Blog</p>
+      <p>FAQs</p>
+      <p><strong>Phone:</strong></p>
+      <p>(877) 867-5753</p>
+      <p><strong>Email:</strong></p>
+      <p>info@store-a-tooth.com</p>
+    </div>
+    <div id="row2" class="col-sm-3">
+      <h3><br></h3>
+      <p>Our Accreditations</p>
+      <p>International Service</p>
+      <p>Research Bibliography</p>
+      <p>Terms and Conditions</p>
+      <p>Privacy Policy</p>
+      <p>Sitemap</p>
+    </div>
+    <div id="row3" class="col-sm-3">
+      <h3><strong>Partners Whith Us</strong></h3>
+      <p>Dental Professionals</p>
+      <p>Advocate Program</p>
+      <p>Influencers</p>
+      <p>Affiliates</p>
+      <p>Press</p>
+    </div>
+    <div id="row4" class="col-sm-3">
+      <h3><strong>Follow Us</strong></h3>
+      <p><i class="fab fa-facebook-square"></i>  Facebook</p>
+      <p><i class="fab fa-twitter"></i>  Twitter</p>
+      <p><i class="fab fa-linkedin"></i>  Linkendin</p>
+      <p><i class="fab fa-youtube"></i>  Youtube</p>
+    </div> 
+  </div>
+    <div class="bottom">
+      <img class="imft" src="https://gracecentury.com/wp-content/uploads/2017/07/store-a-tooth-1.png">
+      <p class="txtbt">Copyright © 2016 Provia Laboratories LLC All rights reserved</p>
+    </div>
+</footer>
+<!--------------------------------------------------------------------------------------->
+</body>
+</html>

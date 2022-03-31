@@ -1,0 +1,561 @@
+/*---------------------header---------------------------------*/
+.jumbotron.text-center{
+	background-color: #10592e;
+	padding: 20px 0px 10px 0px;
+	margin: auto;
+	font-style: normal;
+	font-weight: lighter;
+}
+.jumbotron p{
+	padding: 0px;
+	margin: 0px;
+	font-size: 15px;
+}
+.title{
+	color: white;
+	text-align: center;
+	
+}
+/*----------------------menu ngang--------------------------------*/
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      height: auto;
+      /*border-style: none;*/
+    }
+
+.navbar.navbar-inverse{
+	background-color: white;
+	margin: auto;
+	padding: auto;
+	height: auto;
+}
+
+.container-fluid{
+	margin: auto;
+	padding: 0px;
+	padding-left: 0px;
+}
+.navbar-header{
+	width: 100%;
+	float: left;
+	
+}
+.navbar-brand{
+	float: left;
+	width: 30%;
+	height: auto;
+}
+#logostore{
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.collapse.navbar-collapse{
+	padding: 0px;
+	margin: 0px;
+	padding-right: 0px;
+	margin-right: 0px;
+}
+.nav.navbar-nav{
+	height: auto;
+	margin-top: 15px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: black;
+    background-color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: black;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
+	color: black;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover{
+	color: black;
+}
+.dropdown-menu{
+	border-style: none;
+	border: 0px;
+	background-color: white;
+
+}
+.mn1{
+	padding: 5px 0px;
+
+}
+.mn2{
+	padding: 0px 0px 0px 15px;
+
+}
+.search{
+	margin-top: 15px;
+	padding-left: 15px;
+}
+.navbar-form.navbar-left{
+	margin-top: 5px;
+	border-style: none;
+	margin-left: 100px;
+}
+.dropdown-toggle:hover {
+	background: white;
+}
+.navbar-collapse{
+	border-style: none;
+}
+#bt1{
+	border-radius:20px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	background: red;
+}
+/*------------------- banner 1-----------------------------------*/
+#jumbotron{
+	background-image: url("https://www.evolvefamilydental.com/thedentalsitecontent/themes/515/images/slides/slide1.jpg");
+	background-size: 100% 100%;
+}
+#jumbotron h1{
+	font-size: 40px;
+	font-weight: bold;
+}
+#jumbotron p{
+	padding: 0px;
+	margin: 0px;
+	margin-left: 5%;
+}
+.jum{
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 100px;
+}
+.jum1{
+	width: 90%;
+	margin-left: 5%;
+	
+}
+.jumbo{
+	width: 90%;
+	font-size: 16px;
+}
+
+#txtbanner{
+	width: 15%;
+	height: 50px;
+	border: 0px;
+  	border-radius: 20px;
+  	padding: 5px 0px;
+  	padding-left: 2%;
+  	margin: 50px 0px 100px 0px;
+  	background: #8dc642;
+  	color: white;
+  	margin-left: 5%;
+}
+#bt2{
+	background: white;
+	border-radius: 100%;
+	color: black;
+	height: 51px;
+	width: 50px;
+	margin-left: -40px;
+}
+/*-------------------Row-----------------------------------*/
+.td{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.container {
+}
+.row{}
+.caption{
+	width: 100%;
+	text-align: center;
+}
+.col-md-4 p{
+	text-align: center;
+	padding: 0px 0px;
+}
+.thumbnail{
+	border-style: none;
+}
+/*------------------- logoNTT-----------------------------------*/
+#logoNTT{
+	float: left;
+	margin: 100px 0px 50px 0px;
+	padding-top: 100px;
+	border-top: 6px solid #ebebeb;
+}
+.bd{	
+	color: black;
+	margin-top: -120px;
+	text-align: center;
+	height: 50px;
+}
+.bd h6{
+	width: 100px;
+	height: 50px;
+	background: white;
+	margin-left: 47%;
+}
+.col-md-2{
+	margin-left: 2.5%;
+}
+/*----------------------banner 2--------------------------------*/
+.jumbotron p{
+	padding-left: 10%;
+}
+#jumbotron1{
+	width: 100%;
+	float: left;
+	background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-dental-health-board-background-image_174798.jpg");
+	background-size: 100% 100%;
+}
+#jumbotron1 h1,p{
+	padding-left: 10%;
+}
+
+#jumbotron1 h1{
+	font-size: 35px;
+	font-weight: bold;
+}
+#jumbotron1 p{
+	margin: 0px;
+	font-size: 20px;
+}
+#jumbotron1 button{
+	margin-left: 10%;
+}
+#bt4{
+	background: white;
+	border: 2px solid #10592e;
+	border-radius: 30px;
+	max-width: 200px;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 100px;
+	margin-top :50px
+}
+/*--------------------Dichvu----------------------------------*/
+#dichvu{
+	border-style: none;
+	float: left;
+}
+#nd{
+	margin-left: 5%;
+}
+.tieude{
+	font-weight: bold;
+	font-size: 40px;
+	padding-top: 30px;
+}
+.noidung{
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+.noidung1{
+	text-align: left;
+	margin: 20px 0px;
+	padding: 0px;
+	
+}
+#bt5{
+	background: white;
+	border: 2px solid #10592e;
+	border-radius: 30px;
+	max-width: 200px;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 100px;
+}
+/*-----------------------Video-------------------------------*/
+#videodichvu{
+	width: 100%;
+	float: left;
+	background-image: url("https://trungtamnhakhoa.vn/hoanghung/5/images/gioi-thieu-nha-khoa/co-so-de-xac-dinh-phong-kham-nha-khoa-tot-o-ha-noi-anh-2.jpg");
+	background-size: 100% 100% ;
+}
+.titlevddv{
+	width: 100%;
+	text-align: center;
+	margin: 50px 0px;
+}
+.titlevddv p{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+#video{
+	width: 100%;
+	float: left;	
+}
+#video h3{
+	text-align: left;
+}
+#video p{
+	text-align: left;
+}
+.embed-responsive-item{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+#khungvd1{
+	border-radius: 20px;
+}
+#video1{
+	
+	padding: 0px;
+}
+#video1 p{
+	padding: 0px;
+	margin: 0px;
+}
+#khungvd2{
+	border-radius: 20px;
+}
+#video2{
+	padding: 0px;
+}
+#video2 p{
+	padding: 0px;
+	margin: 0px;
+}
+#khungvd3{
+	border-radius: 20px;
+}
+#video3{
+	padding: 0px;
+}
+#video3 p{
+	padding: 0px;
+	margin: 0px;
+}
+.bt6{
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin: 50px 0px 100px 0px;
+}
+#bt6{
+	background: white;
+	border: 2px solid #10592e;
+	border-radius: 30px;
+	max-width: 200px;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+/*-----------------------Thu gon-------------------------------*/
+.thugon{
+	width: 100%;
+	float: left;
+}
+.titleTG{
+	width: 100%;	
+	text-align: center;
+	margin: 50px 0px;
+}
+.titleTG h1{
+	font-weight: bold;
+}
+.titleTG p{
+	margin: 0px;
+	padding: 0px;
+}
+.panel-group{
+	width: 100%;
+}
+.panel.panel-default{
+	width: 80%;
+	margin-left: 10%;
+	border-style: none;
+}
+.panel-heading {
+	margin: 0px;
+	padding: 0px 0px;
+
+}
+.panel-heading :hover {
+	background: #e4ede2;
+	border-radius: 50px;
+}
+
+.panel-title{
+	height: 50px;
+	padding: 20px 0px 20px 20px;
+	background-color: white;
+	
+}
+#ntg{
+	float: right;
+	padding-right: 2%;
+}
+/*-----------------------Email-------------------------------*/
+#email{
+	width: 100%;
+	float: left;
+	margin: 50px 0px 0px 0px;
+	padding: 50px 0px 0px 0px;
+	border-top: 6px solid #ebebeb;
+}
+#ndemail{
+	width: 100%;
+	
+}
+#lgemail{
+	margin: 0px ;
+	padding: 0px;
+}
+.imcont{
+	padding-left: 20%;
+	width: 80%;
+	text-align: center;
+}
+.col-sm-6 h5{
+	color: #10592e;
+	font-weight: bold;
+}
+.col-sm-6 h3{
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+
+#txtcont{
+	width: 90%;
+	height: 50px;
+	border: 3px solid #e1e1e1;
+  	border-radius: 20px;
+  	padding: 5px 0px 5px 20px;
+  	margin: 20px 0px;
+}
+#txtemail p{
+	width: 90%;
+	padding: 0px;
+	padding-left: 5%;
+	margin: 0px;
+	font-size: 9px;
+	text-align: center;
+}
+#bt7{
+	background: green;
+	border-radius: 100%;
+	color: white;
+	height: 51px;
+	width: 50px;
+	margin-left: -40px;
+}
+
+
+/*-----------------------footer-------------------------------*/
+#footer{
+	width: 100%;
+	float: left;
+	margin-top: 50px;
+	background-color:#dce9d8 ;
+}
+#footer h3{
+	text-align: left;
+	padding-left: 10%;
+}
+#footer p{
+	margin: 0px;
+}
+#row1{
+	margin-top: 50px;
+}
+#row1 p{
+	text-align: left;
+	padding-left: 10%;
+}
+#row2{
+	margin-top: 50px;
+}
+#row2 p{
+	text-align: left;
+	padding-left: 10%;
+}
+#row3{
+	margin-top: 50px;
+}
+#row3 p{
+	text-align: left;
+	padding-left: 10%;
+}
+#row4{
+	margin-top: 50px;
+}
+#row4 p{
+	text-align: left;
+	padding-left: 10%;
+}
+.bottom{
+	margin: 50px 0px;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.imft{
+	margin-top: 20px;
+	width: 13%;
+}
+.bottom p{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+@media (max-width: 1081px) {
+	.navbar-form.navbar-left{
+		margin-left: 20px;
+	}
+}
+@media (max-width: 1018px) {
+	.navbar-brand{
+		float: left;
+		width: 50%;
+		height: auto;
+	}
+	.collapse.navbar-collapse{
+		width: 50%;
+		float:left ;
+		height: auto;
+	}
+}
+@media (max-width: 767px) {
+	.navbar-form.navbar-left{
+		float: left;
+		margin-top: 0px;
+		margin-left: 20px;
+	}
+	#ft{
+		margin-left: 30%;
+	}
+}
+@media only screen and (max-width: 767px) {
+    .col-sm-6 h5{
+    	margin-left: 10%;
+	}
+	.col-sm-6 h3{
+		margin-left: 10%;
+	}
+	#txtcont{
+		width: 80%;
+		margin-left: 10%;
+		margin-top: 50px;
+	}
+}
+@media (min-width: 767px) {
+   .navbar-nav .dropdown-menu .caret { 
+   	transform: rotate(-90deg);
+   }
+}
